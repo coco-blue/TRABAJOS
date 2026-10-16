@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+      
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    color: #000;
+    background-color: rgb(247, 239, 211);
+}
+.encabezado{
+    background: -moz-linear-gradient( rgb(246, 73, 240)),( rgb(246, 73, 102));
+    color: #000000;
+    text-align: center;
+    padding: 55px 20px;
+}
+.encabezado h1{
+    font-size: clamp(2 rem,5vw,3rem);
+    margin-bottom:10px;
+}
+
+.navegacion{
+    background-color: #d5466a;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+}
+
+.navegacion a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding:10px 18px;
+    border-radius: 8px;
+    transition:background-color 0.4s;}
+
+.navegacion a:hover,
+.navega a:focus-visible
+{
+    background-color: rgb(233, 126, 181);
+}
+.contenedor{
+    width: min(1100px,92%);
+    margin: 30px auto}
+section{
+    margin-bottom: 35px;
+    scroll-margin-top: 20px;
+}
+section h2{
+    color:#000;margin-bottom: 18px;
+}
+.bienvenida{
+    background-color: #f37f7f;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow:0px 4px 12px;
+    border-left: 6px solid #4e0808;
+}
+.tarjeta{
+    background-color: #61dfe8;
+    padding: 25px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    box-shadow:0px 4px 12px;
+    transition: transform 04s;
+}
+.tarjeta:hover{
+    transform: translateY(-4px);
+}
+.tarjeta h3{
+    color: #000;
+    margin-bottom: 10px;
+}
+.tarejet a{
+
+}

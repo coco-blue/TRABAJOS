@@ -1,0 +1,15 @@
+form{
+    background-color: rgb(255, 161, 208);
+}
+legend{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+input[type='text']{
+    background: rgb(202, 238, 188);
+    color:rgb(125, 32, 111);
+}
+input [type='number']{
+    background:rgb(202, 238, 188) ;
+    color:rgb(125, 32, 111);
+}
