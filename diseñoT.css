@@ -1,0 +1,127 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #000;
+  background-color: rgb(247, 239, 211);   
+}
+.menu {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center; 
+  padding: 30px;
+  transition: transform 0.4s;
+}
+.menu a{
+  display: inline-block;
+  width: 220px;
+  padding: 12px 20px;
+  margin: 6px;
+  background:#58aadd;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 10px;
+}
+.menu a:hover,
+.contenido a:hover{
+  background: #58aadd;
+  transform: translateY(-2px);
+}
+.contenido a{
+  display: inline-block;
+  padding: 8px 20px;
+  background: rgb(246, 73, 102);
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+  border-radius: 10px;
+}
+.contenido h1{
+  text-align: center;
+  color: #38afb7;
+  font-size: 48px;
+  margin: 20px 0;
+}
+.contenido h3{
+  text-align: center;
+  color:  rgb(246, 73, 102);
+  padding-bottom: 4px;
+}
+.contenido h4{
+  text-align: center;
+  color:  #38afb7;
+}
+.contenido dt{
+  font-weight: bold;
+  color:  rgb(246, 73, 102);
+}
+.contenido img{
+  max-width: 100%;
+  margin: 10px 0;
+}
+.contenido video{
+  margin: 15px 0;
+  border-radius: 10px;
+}
+.contenido table{
+  border-collapse: collapse;
+  margin: 20px auto;
+  text-align: center;
+}
+.contenido th{
+  background:#58aadd;
+  color: white;
+  border: 1px solid #101115;
+}
+.contenido td{
+  border: 1px solid #101115;
+  background-color: rgb(255, 255, 255);
+  color:rgb(134, 8, 8);
+}
+.contenido fieldset{
+  border: 2px solid rgb(246, 73, 102);
+  border-radius: 10px;
+  padding: 15px 20px;
+  text-align: center;
+}
+.contenido legend{
+  color:  rgb(246, 73, 102);
+  font-weight: bold;
+  padding: 0 10px;
+}
+.contenido input[type="text"],
+.contenido input[type="number"]{
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  border: 1px solid  #2f848a;
+  border-radius: 6px;
+}
+.contenido input[type="reset"]{
+  padding: 8px 20px;
+  margin-top: 10px;
+  background: rgb(246, 73, 102);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.contenido input[type="submit"]{
+  padding: 8px 20px;
+  margin-top: 10px;
+  background: rgb(246, 73, 102);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.tarjeta{
+    background-color: rgb(247, 239, 211);
+    padding: 25px;
+    width: 1000px;         
+    margin: 0 auto 18px;      
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    margin: 80px auto 18px; 
+}
+.tarjeta h1{
+    color: #000;
+    margin-bottom: 10px;
+}
+.contenido .img-centrada {
+  margin: 10px auto;
+}
