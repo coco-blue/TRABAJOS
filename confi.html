@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirmar</title>
+<link rel="stylesheet" href="diseñoT.css">
+    <link rel="icon" type="imagen/png" href="icono.png">
+</head>
+  <body class="contenido">
+    <script>
+    let continuar= confirm("Desea agregar datos");
+    let nombre=(prompt("Ingresa tu nombre"));
+    let edad=Number(prompt("Ingresa tu edad"));
+    let especialidad=(prompt("Ingresa tu especialidad"));
+    if(continuar){
+        document.write("tu nombre es"+nombre+"<br>");
+        document.write("tu edad es: "+edad +"años"+"<br>");
+        document.write("tu especialidad es: "+especialidad+"<br>");
+    }
+    else{
+        alert("no se agrego nada");
+    }
+    </script>
+</body>
+</html>
